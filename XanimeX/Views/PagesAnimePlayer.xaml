@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XanimeX.Views.PagesAnimePlayer"
+             Title="Animex: Tus Animes Favoritos">
+    <ContentPage.Content>
+        <!-- BACKGROUND VIDEO -->
+        <StackLayout BackgroundColor="#000040">
+            <Label Text="Elije un reproductor de video"
+                   TextColor="White" FontAttributes="Bold"
+                   VerticalOptions="CenterAndExpand" 
+                   HorizontalOptions="CenterAndExpand" 
+                   Margin="10"/>
+            <StackLayout x:Name="btnContentList">
+            </StackLayout>            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

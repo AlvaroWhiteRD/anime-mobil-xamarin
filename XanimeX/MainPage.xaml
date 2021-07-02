@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XanimeX.MainPage"
+             Title="Animex: Tus Animes Favoritos">
+
+    <ContentPage.ToolbarItems>
+        <!-- <ToolbarItem Text="Animex"
+                     IconImageSource="leonardo.png"/>-->
+    </ContentPage.ToolbarItems>
+    <StackLayout 
+               BackgroundColor="#000040">
+        <!-- CornerRadius="5"
+                       Margin="20"-->
+        <Label Text="Lista de Animes" FontAttributes="Bold" TextColor="White"
+                                       FontSize="Medium" HorizontalOptions="Center" VerticalOptions="Center" />
+        <StackLayout>
+        <CarouselView ItemsSource="{Binding CarruselAnimeArray}" PeekAreaInsets="100" Loop="false">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Frame HasShadow="True" BorderColor="Red" BackgroundColor="Black"
+                           CornerRadius="5" Margin="10" HeightRequest="300"
+                               WidthRequest="200"
+                           HorizontalOptions="Center" VerticalOptions="EndAndExpand">
+                            <StackLayout>
+                                <Label Text="{Binding Title}" FontAttributes="Bold" TextColor="White"
+                                       FontSize="Medium" MaxLines="1"
+                                       HorizontalOptions="Center" VerticalOptions="Center" />
+                                <ImageButton Source="{Binding Img}" Aspect="AspectFill" 
+                                       HeightRequest="135" CommandParameter="{Binding Id}"
+                                       WidthRequest="150" HorizontalOptions="Center" x:Name="ImgClick" Clicked="ImgClick_Clicked"
+                                             >
+                                </ImageButton>
+                                <Label Text="Ver Ahora >"  TextColor="Red"
+                                       FontSize="Small" Margin="0,10,0,0"
+                                       HorizontalOptions="Center" VerticalOptions="Center" />
+
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+
+            </CarouselView.ItemTemplate>
+
+        </CarouselView>
+        </StackLayout>
+            <StackLayout>
+            <Label Text="Ultimos capitulos agregados" FontAttributes="Bold" TextColor="White"
+                                   Margin="10" FontSize="Small" 
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center" />
+            <CarouselView ItemsSource="{Binding CarruselAnimeArray}" Loop="false">
+                
+                <CarouselView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" />
+                </CarouselView.ItemsLayout>
+                
+                <CarouselView.ItemTemplate>
+                    
+                    <DataTemplate>
+                        <StackLayout>
+                            <Frame HasShadow="True"
+                               BorderColor="Red" BackgroundColor="Black"
+                               CornerRadius="10" Margin="10"
+                               HeightRequest="200" HorizontalOptions="Center"
+                               VerticalOptions="CenterAndExpand">
+                                <StackLayout>
+                                    <Label Text="{Binding Title}" TextColor="White"
+                                       FontAttributes="Bold" FontSize="Large"
+                                       HorizontalOptions="Center" VerticalOptions="Center" />
+                                    <Image Source="{Binding Img}"
+                                       Aspect="AspectFill" HeightRequest="150"
+                                       WidthRequest="150" HorizontalOptions="Center" />
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+        </StackLayout>
+        <Label Text="Animex no aloja ningun tipo de video en sus servidores"
+               TextColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="10"
+               FontAttributes="Bold"/>
+    </StackLayout>
+
+
+</ContentPage>

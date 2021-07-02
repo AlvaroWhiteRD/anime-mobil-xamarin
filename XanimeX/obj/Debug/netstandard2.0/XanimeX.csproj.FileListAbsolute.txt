@@ -1,0 +1,17 @@
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\bin\Debug\netstandard2.0\XanimeX.deps.json
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\bin\Debug\netstandard2.0\XanimeX.dll
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\bin\Debug\netstandard2.0\ref\XanimeX.dll
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\bin\Debug\netstandard2.0\XanimeX.pdb
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\Views\PagesAnimeDetail.xaml.g.cs
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\Views\PagesAnimePlayer.xaml.g.cs
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\Views\PagesPlayerVideo.xaml.g.cs
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\XanimeX.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\XanimeX.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\XanimeX.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\XanimeX.dll
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\ref\XanimeX.dll
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\XanimeX.pdb
+C:\Users\Usuario\source\repos\XanimeX\XanimeX\obj\Debug\netstandard2.0\XanimeX.csprojAssemblyReference.cache

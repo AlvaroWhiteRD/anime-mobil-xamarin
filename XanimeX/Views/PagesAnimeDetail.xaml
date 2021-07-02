@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Animex: Tus Animes Favoritos"
+             x:Class="XanimeX.Views.PagesAnimeDetail"
+            >
+    <StackLayout BackgroundColor="#000040">
+        <Label x:Name="TitlesAnime" TextColor="White" Margin="10" FontSize="Medium"/>
+
+        <ScrollView Orientation="Horizontal" >
+            <Grid RowSpacing="5" ColumnSpacing="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="240"/>
+                    <RowDefinition Height="300"/>
+                    <RowDefinition Height="220"/>
+                    <RowDefinition Height="220"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="AUTO"/>
+                    <ColumnDefinition Width="190"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="150"/>
+                </Grid.ColumnDefinitions>
+                <StackLayout Grid.Row="0" Grid.Column="0" 
+                   Padding="5" Margin="5">
+                    <Frame   BorderColor="Red" CornerRadius="10" BackgroundColor="Black">
+                        <AbsoluteLayout VerticalOptions="FillAndExpand">
+
+                            <Image x:Name="Img" BackgroundColor="Orange" Aspect="AspectFill" 
+                                       HeightRequest="200" WidthRequest="150" Margin="5"/>
+
+                            <Label x:Name="Titles" FontAttributes="Bold" TextColor="White" Padding="10"
+                                       FontSize="Medium" MaxLines="1"/>
+                        </AbsoluteLayout>
+                    </Frame>
+
+                </StackLayout>
+                <StackLayout Grid.Row="0" Grid.Column="1">
+                    <Frame Margin="10" BackgroundColor="Black" 
+                    BorderColor="Red" CornerRadius="10">
+                        <StackLayout>
+                            <Label x:Name="Synopsis" FontAttributes="Italic" TextColor="White" Padding="10"
+                                       FontSize="Medium" MaxLines="9"/>
+                        </StackLayout>
+
+                    </Frame>
+                </StackLayout>
+
+            </Grid>
+        </ScrollView>
+        <StackLayout>
+
+            <Label Text="Lista de Episodios" TextColor="White" Margin="10,0,0,0" FontSize="Medium"/>
+            <Frame  BackgroundColor="Black"  Margin="10"
+                    BorderColor="Red" CornerRadius="10">
+                <ListView x:Name="EpisodeAnimeList"
+                          ItemSelected="EpisodeAnimeList_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell DetailColor="White" Detail="Episodio"
+                                      Text="{Binding EpisodeNumber}"
+                                      TextColor="Red"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </Frame>
+
+        </StackLayout>
+    </StackLayout>
+
+
+
+
+
+
+    <!--  <StackLayout BackgroundColor="Red"
+                     Padding="10" HeightRequest="300"
+                     VerticalOptions="StartAndExpand"
+                     HorizontalOptions="FillAndExpand">
+        <StackLayout>
+              <AbsoluteLayout VerticalOptions="Fill">
+
+            <Image BackgroundColor="Orange" Source="{Binding Img}" Aspect="AspectFill" 
+                                       HeightRequest="150" WidthRequest="150" />
+
+            <Label Text="texto Imagen 1" FontAttributes="Bold" TextColor="White" Padding="10"
+                                       FontSize="Medium" MaxLines="1"/>
+            
+
+          
+        </AbsoluteLayout>
+
+            <AbsoluteLayout VerticalOptions="End">
+
+                <Image BackgroundColor="Gray" Source="{Binding Img}" Aspect="AspectFill" 
+                                       HeightRequest="150" WidthRequest="150" />
+
+                <Label Text="solo texto 1" FontAttributes="Bold" TextColor="White" Padding="10"
+                                       FontSize="Medium" MaxLines="1"/>
+
+
+
+            </AbsoluteLayout>
+        </StackLayout>
+
+    
+    </StackLayout>-->
+
+
+</ContentPage>
+    

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "hORxhrXxSgZJ9PKDAkfRs/SkQfHtEj12xvu4TaK+b54lpB/Ao8lttXLLTVAN05dC6WItlF9Q8hdnqs2GSJ7IBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\XanimeX\\XanimeX\\XanimeX.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\libvlcsharp\\3.5.1\\libvlcsharp.3.5.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\libvlcsharp.forms\\3.5.1\\libvlcsharp.forms.3.5.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\videolan.libvlc.android\\3.2.0\\videolan.libvlc.android.3.2.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
